@@ -1,0 +1,13 @@
+#svgSirkel{
+    height: "500"; 
+    width: "500";
+}
+body {
+    background-color: blanchedalmond;
+}
+
+ellipse{
+    fill:transparent; 
+    stroke:black;
+    stroke-width:5;
+}

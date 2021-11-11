@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wordchooser</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <h1>Wordchooser</h1>
+    <hr>
+    <br>
+    <div id="mainDiv">Det var en gang en <div id="kjønn">___</div> som hadde jobb som <div id="jobb">___</div> og var alltid <div id="Humør">___</div></div>
     
+    <svg id="svgSirkel" height="500" width="500">
+        <ellipse onclick="sendOrd(ord1) (this)" id="ord1ellipse" class="ordene" cx="100" cy="80" rx="50" ry="25"/> <text x="80" y="80" fill="red">"ord1"</text>
+        <ellipse id="ord2ellipse" class="ordene" cx="100" cy="160" rx="50" ry="25" /> <text x="80" y="160" fill="red">"ord2"</text>
+        <ellipse id="ord3ellipse" class="ordene" cx="100" cy="240" rx="50" ry="25"/> <text x="80" y="240" fill="red">"ord3"</text>
+
+        <ellipse id="ord4ellipse" class="ordene" cx="250" cy="80" rx="50" ry="25" /> <text x="230" y="80" fill="red">"ord4"</text>
+        <ellipse id="ord5ellipse" class="ordene" cx="250" cy="160" rx="50" ry="25" /> <text x="230" y="160" fill="red">"ord5"</text>
+        <ellipse id="ord6ellipse" class="ordene" cx="250" cy="240" rx="50" ry="25" /> <text x="230" y="240" fill="red">"ord6"</text>
+
+        test<ellipse cx="250" cy="350" rx="50" ry="25" style="fill:transparent; stroke:red; stroke-width:5;"> `balle` "balle2" 'balle3' <text>balle4 `balle6`</text> (balle5)</ellipse>
+        
+
+      </svg>
+      <script src="Script.js">
+          //model
+          var ordPutt = "";
+
+          //det er noe galt med view, fiks og ta bort stuff fra "maindiv"
+          //view
+          updateView();
+          function updateView() {
+              document.getElementById('mainDiv').innerHTML = `
+              Det var en gang en <div id="kjønn">${ordPutt}</div> som hadde jobb som <div id="jobb">___</div> og var alltid <div id="Humør">___</div>
+              <p>ting og tang</p>
+              svg osv inni her også? ja..
+              `;
+            }
+
+            //controller
+            function sendOrd(sendOrd) {
+                ordPutt = `ord1`
+
+                updateView();
+
+            }
+
+      </script>
 </body>
 </html>
