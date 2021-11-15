@@ -1,0 +1,25 @@
+1. paint bildet er sånn det skal se ut.
+
+2. utseende; bakgrunn: grå.  
+inni ellipse: transparent/lysegrå
+tekst inni ellipse: rød
+ellipse border: sort?
+
+3. Teksten som viser historien: tjukk stor 
+skrift. evt sette det til en <h1>?
+
+4. Hvordan det skal fungere: 
+Ordet i svg skal det gå
+til "HISTORIEN" ved å bruke "DRAG&DROP". skal også 
+forsvinne fra ellipsen.
+
+5. MUST HAVE: ord og functions
+
+6. NICE TO HAVE: popup(alert) som sier "historien er ferdig"
+
+
+Magnus tar dette:
+Carina tar dette:
+Marius tar dette:
+Mago   tar dette:
+
