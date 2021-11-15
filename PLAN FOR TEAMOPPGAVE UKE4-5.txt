@@ -20,11 +20,10 @@ forsvinne fra ellipsen.
 
 HVEM TAR SCREENSHARE? FINNER UT AV DET PÅ TIRSDAG.
 
-Magnus tar dette: BLABLA
+Magnus tar dette: et par ellipser, function, prøve å fikse mvc, drag&drop
 
-Carina tar dette:
+Carina tar dette: et par ellipser,  function, prøve å fikse mvc, drag&drop
 
-Marius tar dette:
-
-Mago   tar dette:
+Marius tar dette: et par ellipser, style generelt, prøve å fikse mvc, drag&drop
+Mago   tar dette: style på ellipse, fikse <div> "på linje, fikse "popup"
 
