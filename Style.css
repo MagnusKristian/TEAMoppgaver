@@ -2,12 +2,25 @@
     height: "500"; 
     width: "500";
 }
-body {
-    background-color: blanchedalmond;
-}
 
 ellipse{
     fill:transparent; 
     stroke:black;
     stroke-width:5;
+}
+
+body {
+    background-image: url('https://img.gfx.no/1675/1675918/1200024500.jpg');
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width : 50%;
+    height: 100%;
+    text-align : center;
+}
+
+text {
+    font-size: x-large;
+    font-style: bold;
 }
