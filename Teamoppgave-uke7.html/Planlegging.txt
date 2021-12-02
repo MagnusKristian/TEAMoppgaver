@@ -1,0 +1,65 @@
+PLAN FOR TEAMOPPGAVE:
+
+HVORDAN SKAL DET SE UT:
+
+1. Tekst basert fight (crit/hit/miss)
+
+2. PLAYER NAVN OG NPC NAVN MED HP UNDER HVER (player 1 vs. terje)
+
+3. BUTTON SKAL LIGGE LITT UNDER NAVNENE
+
+4. ALERT SOM VISER VINNERBESKJED
+
+5. BUTTON PÅ PLAYER SOM ATTACKER OG SÅ ATTACKER NPC PLAYER
+
+6. NPC HP=100 ATTACK=10
+
+7. PLAYER HP=50 ATTACK=5
+
+8. ALT CENTER INNI DIV/BOX
+
+9. BACKGROUND COLOR + COLOR INNI BOX
+
+10. HUSKE MVC OG SPLITTE KODE I EGNE FILER
+
+----------------------------------
+
+HVEM SKAL GJØRE HVA: 
+
+MAGNUS: div?, object til player og npc, litt Math.random, 
+
+MARIUS: Alert, buttons, objects, litt Math.random, 
+
+MAGOMED: noe if greier, litt Math.random, 
+
+CARINA: CSS, litt Math.random, tekst
+
+
+----------------------------------
+
+MUST HAVE:  
+
+- Begge skal ha Healthpoints, som skal minske når de angripes - skal synes på skjermen
+- Player mindre HP og angrepskraft enn NPC - vanskeligere å vinne
+- Player skal ha mulighet for crit/dobbel angrepskraft
+- NPC skal kunne bomme på player og gjøre 0 skade
+
+- Ikke være mulig å angripe etter 0 i HP (begge)
+- Ikke være mulig å gå under 0 i HP
+- Vinnerbeskjed på skjermen!
+
+- Objects
+- If setninger
+- Math.random()
+
+----------------------------------
+
+NICE TO HAVE: 
+
+- Bilde av karakter (terje?)
+
+- Fler type angrep (ultimate?)
+
+- Vinnerbeskjed mer fancy enn alert
+
+----------------------------------
