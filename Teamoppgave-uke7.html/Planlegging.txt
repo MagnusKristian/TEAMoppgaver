@@ -62,4 +62,8 @@ NICE TO HAVE:
 
 - Vinnerbeskjed mer fancy enn alert
 
+- Lyd som spilles av samtidig som attack og WIN/LOSS
+
+-
+
 ----------------------------------

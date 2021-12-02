@@ -1,15 +1,23 @@
-const spillere = [
+const player = [
     {
-        spiller: "spiller1",
-        hp: "50",
-        attack: "5",
-        crit: "10",
-    },
-    {
-        npc: "Terje",
-        hp: "100",
-        attack: "10", 
-        miss: " ",
+        navn: "spiller1",
+        hp: 50,
+        attackDamag: 5,
+        crit: 10,
     },
 ]
-    
+
+const terje = [
+    {
+        navn: "Terje",
+        hp: 100,
+        attackDamage: 10, 
+        miss: 0,
+    },
+]
+
+
+
+var attack = false;
+var win = true;
+var text = '';

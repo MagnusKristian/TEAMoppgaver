@@ -1,7 +1,26 @@
 
 body {
-background-color: orange;
+    color: white;
+    background-color: rgb(0, 9, 93);
 }
-div {
-border: solid black;
+.hoved {
+ text-align: center;
+margin-left: 33%;
+margin-right: 33%;
+margin-top: 10%;
+
+}
+
+div.hoved {
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    
+}
+
+div.ting {
+    border: 2px dotted black;
+    width: auto;
+    height: auto;
+    
 }
