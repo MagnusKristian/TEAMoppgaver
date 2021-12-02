@@ -19,7 +19,7 @@ function npcAttack(){
         }   
         view();  
 }
-
+// bytt alert til inni html
 function attack(){
     playerAttack();
     setTimeout(function(){
