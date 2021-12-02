@@ -24,9 +24,14 @@ div.ting {
     height: auto;
     
 }
-div{
+div.infoStuff{
     font-size: 50px;
 }
 button {
     font-size: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }

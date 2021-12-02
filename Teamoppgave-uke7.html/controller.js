@@ -10,13 +10,11 @@ function npcAttack(){
 }
 
 function attack(){
-    attack = true;
     playerAttack();
     setTimeout(function(){
     npcAttack();
     }, 1000);
-    return;
-    view();
+   
 }
 
 function winOrlose(){
