@@ -1,3 +1,4 @@
+
 function playerAttack(){
         if(terje[0].hp > 0){
         text = 'player attacked'
@@ -22,15 +23,5 @@ function attack(){
     setTimeout(function(){
     npcAttack();
     }, 1000);
-    //winOrlose();
    
 }
-
-/*function winOrlose(){
-    if (terje[0].hp <= 0){
-        alert ('Noice, you are the wiener!');
-    }
-    if (player[0].hp <= 0) {
-        alert ('What a n00b, you lose..');
-    }    
-}*/
