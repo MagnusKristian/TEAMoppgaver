@@ -1,10 +1,10 @@
 const player = [
     {
-        navn: "spiller1",
+        navn: "Player",
         hp: 50,
-        attackDamag: 5,
+        attackDamage: 5,
         crit: 10,
-    },
+    }
 ]
 
 const terje = [
@@ -13,11 +13,11 @@ const terje = [
         hp: 100,
         attackDamage: 10, 
         miss: 0,
-    },
+    }
 ]
 
 
 
-var attack = false;
+
 var win = true;
 var text = '';

@@ -1,26 +1,22 @@
 function playerAttack(){
-    if (attack == true){
         text = 'player attacked'
-        terje.hp -= 5;
+        terje[0].hp -= player[0].attackDamage;
         view();
-    }
 }
 function npcAttack(){
-    if (attack == true){
         text = 'npc attacked'
-        player.hp -= 10;
-        attack = false;    
+        player[0].hp -= terje[0].attackDamage;   
         view();
-    }
 }
 
-function attack(element){
+function attack(){
     attack = true;
     playerAttack();
-    setTimeout(function() {
-        npcAttack();
+    setTimeout(function(){
+    npcAttack();
     }, 1000);
-
+    return;
+    view();
 }
 
 function winOrlose(){
@@ -30,4 +26,5 @@ function winOrlose(){
     else {
         alert ('What a n00b, you lose..');
     }
+    view();
 }
