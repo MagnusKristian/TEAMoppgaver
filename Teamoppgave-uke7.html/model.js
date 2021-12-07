@@ -13,6 +13,9 @@ const terje = [
         hp: 100,
         attackDamage: 10, 
         miss: 0,
+    }, 
+    {
+        ostepop: 55,
     }
 ]
 
@@ -21,3 +24,6 @@ const terje = [
 
 var win = true;
 var text = '';
+var melding = '';
+var random = '';
+var test2 = player[0].attackDamage * 2;
