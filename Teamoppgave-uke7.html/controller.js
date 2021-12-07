@@ -1,7 +1,8 @@
 
 function playerAttack(){
     if (player[0].hp == 0){
-        melding = 'PLAYER WON';
+        melding = 'TERJE WON';
+        view();
         return;
     }
         if(terje[0].hp > 0){
@@ -16,7 +17,8 @@ function playerAttack(){
 }
 function npcAttack(){
     if (terje[0].hp == 0){
-        melding = 'TERJE WON';
+        melding = 'PLAYER WON';
+        view();
         return;
     }
         if(player[0].hp > 0){
@@ -40,8 +42,8 @@ function attack(){
 }
 
 // function randomGreier(){
-//    if (test3 < 8){
-//     player[0].crit = player[0].attackDamage * 2;
+//    if (test3 < 5){
+//     player[0].attackDamage = player[0].attackDamage * 2;
 //    }
 //     console.log(randomGreier, 'randomgreier');
 //     view();

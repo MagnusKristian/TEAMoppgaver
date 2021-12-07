@@ -27,4 +27,4 @@ var text = '';
 var melding = '';
 var random = 0;
 // var test2 = player[0].attackDamage * 2;
-var test3 = Math.floor(Math.random()*10);
+var test3 = 0;
