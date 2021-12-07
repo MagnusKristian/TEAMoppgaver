@@ -8,10 +8,9 @@ function playerAttack(){
             text = 'player attacked'
             terje[0].hp -= player[0].attackDamage;
         }
-        // else if(player[0].hp == 0){
-        //     melding = 'You won';
-        //     return;
-        // }        
+        // test3 = Math.floor(Math.random()*10);
+
+    
         view();
     
 }
@@ -39,3 +38,11 @@ function attack(){
     }, 1000);
    
 }
+
+// function randomGreier(){
+//    if (test3 < 8){
+//     player[0].crit = player[0].attackDamage * 2;
+//    }
+//     console.log(randomGreier, 'randomgreier');
+//     view();
+// }
