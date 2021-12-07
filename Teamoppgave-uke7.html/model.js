@@ -14,9 +14,6 @@ const terje = [
         attackDamage: 10, 
         miss: 0,
     }, 
-    {
-        ostepop: 55,
-    }
 ]
 
 
